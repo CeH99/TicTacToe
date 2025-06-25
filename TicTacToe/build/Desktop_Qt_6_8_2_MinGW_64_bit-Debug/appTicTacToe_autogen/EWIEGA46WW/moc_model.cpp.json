@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "Model",
+            "lineNumber": 9,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "board",
+                    "notify": "boardChanged",
+                    "read": "board",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "Model",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "boardChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "model.h",
+    "outputRevision": 68
+}

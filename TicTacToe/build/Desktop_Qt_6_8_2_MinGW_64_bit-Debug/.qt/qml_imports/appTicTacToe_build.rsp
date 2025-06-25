@@ -1,0 +1,14 @@
+-rootPath
+S:/HomeWorks-Hillel/zxc/TicTacToe
+-cmake-output
+-output-file
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/qml_imports/appTicTacToe_build.cmake
+-importPath
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/TicTacToe
+-importPath
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.8.2/mingw_64/qml
+-qrcFiles
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_TicTacToe.qrc
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appTicTacToe_raw_qml_0.qrc

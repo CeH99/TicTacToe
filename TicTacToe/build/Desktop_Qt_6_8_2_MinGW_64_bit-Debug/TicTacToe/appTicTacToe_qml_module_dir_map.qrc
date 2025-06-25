@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/TicTacToe">S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/TicTacToe</file>
+
+  </qresource>
+</RCC>

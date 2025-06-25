@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d1ebfec144763f80597c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TicTacToe",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-93cac71430184ad6fab7.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-fcc5c50efc63e6031564.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-f9003550699c78e66c01.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-02d5f9141ad0e7d80bc9.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-4ca56c3441e9466dddf6.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe-Debug-05f951a3017ced385590.json",
+					"name" : "appTicTacToe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_autogen-Debug-c28b0912996eaa430d41.json",
+					"name" : "appTicTacToe_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_autogen_timestamp_deps-Debug-f9b59cb86f5423151abd.json",
+					"name" : "appTicTacToe_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_copy_qml-Debug-60e85e59950c6eb1d8cd.json",
+					"name" : "appTicTacToe_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_copy_res-Debug-666b568e396d95a527ac.json",
+					"name" : "appTicTacToe_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_qmlimportscan-Debug-f418cbe29a687420c24f.json",
+					"name" : "appTicTacToe_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_qmllint-Debug-604924f2ec4193345d49.json",
+					"name" : "appTicTacToe_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_qmllint_json-Debug-6228e0f75db450fe224d.json",
+					"name" : "appTicTacToe_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_qmllint_module-Debug-efb41af381402f0ed26d.json",
+					"name" : "appTicTacToe_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTicTacToe_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTicTacToe_qmltyperegistration-Debug-e6ba8731922910f58d05.json",
+					"name" : "appTicTacToe_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appTicTacToe_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appTicTacToe_aotstats_target-Debug-dcd836e8191712396e7d.json",
+					"name" : "module_appTicTacToe_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "S:/HomeWorks-Hillel/zxc/TicTacToe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
