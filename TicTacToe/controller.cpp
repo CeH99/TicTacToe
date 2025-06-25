@@ -5,7 +5,7 @@
 #include <utility> // для std::pair
 
 Controller::Controller(Model* model, QObject* parent)
-    : QObject(parent), model_(model), switch_(false), aiIsX_(false) {} // Установите true по умолчанию
+    : QObject(parent), model_(model), switch_(false), aiIsX_(false) {}
 
 void Controller::setAiAsX(bool isX) {
     aiIsX_ = isX;
@@ -29,9 +29,9 @@ void Controller::setIndex(int row, int col, bool player)
         // Проверяем, нужно ли ИИ делать ход
         bool shouldAiMove = false;
 
-        if (aiIsX_ && currentPlayer == 2) {  // ИИ-крестик, человек походил ноликом
+        if (aiIsX_ && currentPlayer == 2) {  // human played cross
             shouldAiMove = true;
-        } else if (!aiIsX_ && currentPlayer == 1) {  // ИИ-нолик, человек походил крестиком
+        } else if (!aiIsX_ && currentPlayer == 1) {  // ai - zeros human played cross
             shouldAiMove = true;
         }
 
@@ -81,10 +81,10 @@ void Controller::setAiEnabled(bool enabled) {
     if (aiEnabled_ != enabled) {
         aiEnabled_ = enabled;
         if (enabled) {
-            // При включении ИИ, по умолчанию ИИ играет ноликами
+            // ai - zeros
             aiIsX_ = false;
         }
-        resetBoard(); // Перезапускаем игру
+        resetBoard(); // restart
         emit aiModeChanged();
     }
 }
@@ -102,12 +102,10 @@ void Controller::makeAiMove()
     }
 
     if (freeCells.empty()) return;
+    int aiValue = aiIsX_ ? 1 : 2;
+    int opponentValue = aiIsX_ ? 2 : 1;
 
-    // Определяем значения для ИИ и противника
-    int aiValue = aiIsX_ ? 1 : 2;        // 1=X, 2=O
-    int opponentValue = aiIsX_ ? 2 : 1;   // противоположное значение
-
-    // Вспомогательная лямбда для симуляции хода
+    // additional help
     auto tryWinOrBlock = [&](int testValue) -> std::pair<int, int> {
         for (const auto& [r, c] : freeCells) {
             model_->setCell(r, c, testValue);
@@ -120,21 +118,21 @@ void Controller::makeAiMove()
         return {-1, -1};
     };
 
-    // 2. Попытка выиграть
+    // 2. trying win
     auto [winR, winC] = tryWinOrBlock(aiValue);
     if (winR != -1) {
         setIndex(winR, winC, aiIsX_ ? false : true); // false=X, true=O
         return;
     }
 
-    // 3. Попытка заблокировать противника
+    // 3. blocking enemy
     auto [blockR, blockC] = tryWinOrBlock(opponentValue);
     if (blockR != -1) {
         setIndex(blockR, blockC, aiIsX_ ? false : true);
         return;
     }
 
-    // 4. Ходим случайно
+    // 4. random play
     int idx = QRandomGenerator::global()->generate() % static_cast<int>(freeCells.size());
     auto [r, c] = freeCells[idx];
     setIndex(r, c, aiIsX_ ? false : true);
@@ -145,9 +143,8 @@ void Controller::resetBoard() {
         for (int j = 0; j < 3; ++j)
             model_->setCell(i, j, 0);
 
-    switch_ = false; // Всегда начинают крестики
+    switch_ = false; // crosses re always first
 
-    // Если ИИ играет крестиками и включен, делаем первый ход
     if (aiEnabled_ && aiIsX_) {
         makeAiMove();
     }
@@ -157,7 +154,7 @@ void Controller::resetBoard() {
 
 void Controller::setFirstPlayer(bool isX) {
     if (aiEnabled_) {
-        aiIsX_ = isX;  // Устанавливаем кто из игроков ИИ
+        aiIsX_ = isX;  // setting ai play
     }
     resetBoard();
 }

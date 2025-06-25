@@ -1,0 +1,11 @@
+--bare
+-I
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.2/mingw_64/qml
+--resource
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_TicTacToe.qrc
+--resource
+S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appTicTacToe_raw_qml_0.qrc
+S:/HomeWorks-Hillel/zxc/TicTacToe/Main.qml
+S:/HomeWorks-Hillel/zxc/TicTacToe/RoundButton.qml

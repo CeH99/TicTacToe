@@ -38,34 +38,33 @@ QVariant Model::board() const {
 
 int Model::check_Win()
 {
-    // Проверка побед по строкам и столбцам
     for (int i = 0; i < 3; i++) {
-        // строки
+        // ROWS
         if (arr[i][0] != 0 && arr[i][0] == arr[i][1] && arr[i][1] == arr[i][2]) {
-            return arr[i][0]; // 1 или 2
+            return arr[i][0]; // 1 / 2
         }
-        // столбцы
+        // COLS
         if (arr[0][i] != 0 && arr[0][i] == arr[1][i] && arr[1][i] == arr[2][i]) {
-            return arr[0][i]; // 1 или 2
+            return arr[0][i]; // 1 / 2
         }
     }
 
-    // Проверка по диагоналям
+    // diagonals
     if (arr[0][0] != 0 && arr[0][0] == arr[1][1] && arr[1][1] == arr[2][2]) {
-        return arr[0][0]; // 1 или 2
+        return arr[0][0]; // 1 / 2
     }
 
     if (arr[0][2] != 0 && arr[0][2] == arr[1][1] && arr[1][1] == arr[2][0]) {
-        return arr[0][2]; // 1 или 2
+        return arr[0][2]; // 1 / 2
     }
 
-    // Проверка на наличие пустых клеток
+    // check if there any empty cell
     for (int i = 0; i < 3; i++)
         for (int j = 0; j < 3; j++)
             if (arr[i][j] == 0)
-                return 0; // игра продолжается
+                return 0; // continue
 
-    // Ничья
+    // draw
     return 3;
 }
 

@@ -26,7 +26,7 @@ signals:
     void boardChanged();
 
 private:
-    int arr[ROW][COL]; // можно статично, нам не нужен dynamic
+    int arr[ROW][COL];
 };
 
 #endif // MODEL_H

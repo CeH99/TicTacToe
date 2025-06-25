@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/TicTacToe/">
+    <file alias="Main.qml">S:/HomeWorks-Hillel/zxc/TicTacToe/Main.qml</file>
+    <file alias="RoundButton.qml">S:/HomeWorks-Hillel/zxc/TicTacToe/RoundButton.qml</file>
+  </qresource>
+</RCC>
+
