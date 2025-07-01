@@ -44,8 +44,8 @@ Make sure you have the following installed:
 #### Using CMake
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-qt.git
-cd tic-tac-toe-qt
+git clone git@github.com:CeH99/TicTacToe.git
+cd TicTacToe
 mkdir build && cd build
 cmake ..
 make
