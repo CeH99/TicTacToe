@@ -1,2 +1,0 @@
-/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/appTicTacToe_autogen/include/../EWIEGA46WW/moc_controller.cpp.json
-/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/appTicTacToe_autogen/include/../EWIEGA46WW/moc_model.cpp.json

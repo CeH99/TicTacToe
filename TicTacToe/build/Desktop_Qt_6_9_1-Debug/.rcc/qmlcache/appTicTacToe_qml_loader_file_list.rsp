@@ -1,6 +1,0 @@
---resource
-/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_TicTacToe.qrc
---resource
-/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appTicTacToe_raw_qml_0.qrc
-/qt/qml/TicTacToe/Main.qml
-/qt/qml/TicTacToe/RoundButton.qml

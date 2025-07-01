@@ -1,2 +1,0 @@
-S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appTicTacToe_autogen/include/../EWIEGA46WW/moc_controller.cpp.json
-S:/HomeWorks-Hillel/zxc/TicTacToe/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appTicTacToe_autogen/include/../EWIEGA46WW/moc_model.cpp.json
