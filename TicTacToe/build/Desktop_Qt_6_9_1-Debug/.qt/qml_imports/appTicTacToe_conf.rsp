@@ -1,0 +1,14 @@
+-rootPath
+/home/user/Qt_Projects/TicTacToe/TicTacToe
+-cmake-output
+-output-file
+/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appTicTacToe_conf.cmake
+-importPath
+/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/TicTacToe
+-importPath
+/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/user/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_TicTacToe.qrc
+/home/user/Qt_Projects/TicTacToe/TicTacToe/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appTicTacToe_raw_qml_0.qrc
